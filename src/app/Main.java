@@ -38,6 +38,8 @@ public class Main {
             array[i] = (int)(Math.random() * (80) + 1);
         }
 
+        System.out.println(Arrays.toString(array));
+
 
         ArrayUtils.findMax(array);
 
